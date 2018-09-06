@@ -15,9 +15,12 @@ script:
   - docker run -v $PWD:/shared  appelmar/s3gep-website
   - sudo chmod -R 0777 site
   - cd site 
-  - git init
-  - git config user.name "Travis CI Documentation Builder"
-  - git config user.email "marius.appel@uni-muenster.de"
-  - git add .
-  - git commit -m "Automated documentation build[ci skip]"
-  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GH_TOKEN  
+  keep-history: true
+  on:
+    branch: master
+
