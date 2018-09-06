@@ -3,8 +3,8 @@ services:
 - docker
 
 env:
-  global:
-  - GH_REF: git@github.com:appelmar/s3gep-website.git
+  global: 
+  - GH_REF: github.com:appelmar/s3gep-website.git
 
 
 install:
