@@ -13,6 +13,7 @@ install:
 
 script:
   - docker run -v $PWD:/shared  appelmar/s3gep-website
+  - chmod -R 0777 site
   - cd site 
   - git init
   - git config user.name "Travis CI Documentation Builder"
