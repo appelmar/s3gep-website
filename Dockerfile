@@ -1,6 +1,7 @@
 FROM ubuntu:xenial
 
 RUN apt-get update && apt-get install -y mkdocs locales
+RUN pip install mkdocs-bootstrap
 RUN mkdir /shared
 
 ENV LANG C.UTF-8  

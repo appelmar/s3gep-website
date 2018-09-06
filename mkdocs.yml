@@ -1,7 +1,7 @@
 site_name: S3-GEP - Scalable Spatiotemporal Statistics for Global Environmental Phenomena
 pages:
   - Home: index.md
-theme: readthedocs
+#theme: readthedocs
 repo_url: https://github.com/appelmar/s3gep_website
 #site_favicon: favicon.ico
 use_directory_urls: false # make links working on local filesystem too

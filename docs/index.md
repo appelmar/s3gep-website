@@ -6,6 +6,9 @@ This website presents the _S3-GEP_ research project funded by the German Researc
 
 
 
+![](s3gep_logo.png)
+
+
 
 ## Introduction
 
