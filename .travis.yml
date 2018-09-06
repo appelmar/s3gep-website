@@ -14,13 +14,13 @@ install:
 script:
   - docker run -v $PWD:/shared  appelmar/s3gep-website
   - sudo chmod -R 0777 site
-  - cd site 
 
 deploy:
   provider: pages
+  local-dir: $TRAVIS_BUILD_DIR/site
   skip-cleanup: true
   github-token: $GH_TOKEN  
-  keep-history: true
+  keep-history: false
   on:
     branch: master
 
