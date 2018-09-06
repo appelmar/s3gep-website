@@ -1,0 +1,22 @@
+sudo: required
+services:
+- docker
+
+env:
+  global:
+  - GH_REF: git@github.com:appelmar/s3gep-website.git
+
+
+install:
+  - docker build -t appelmar/s3gep-website .
+
+
+script:
+  - docker run -v $PWD:/shared  appelmar/s3gep-website
+  - cd site 
+  - git init
+  - git config user.name "Travis CI Documentation Builder"
+  - git config user.email "marius.appel@uni-muenster.de"
+  - git add .
+  - git commit -m "Automated documentation build[ci skip]"
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages
