@@ -1,0 +1,39 @@
+{
+    "docs": [
+        {
+            "location": "/index.html",
+            "text": "S3-GEP - Scalable Spatiotemporal Statistics for Global Environmental Phenomena\n\n\nThis website presents the \nS3-GEP\n research project funded by the German Research Foundation (DFG) under project number 396611854.\n\n\n\n\nProject summary\n\n\nWith today's amount of open Earth observation data, comprehensive geostatistical analyses of environmental phenomena can be brought to global scale. However, computational complexity of random field operations, globally unrealistic model assumptions like stationarity, separability, and isotropy, and data management issues when data size exceeds local storage capacity currently limit the practical use of the data in statistical applications and result in unshareable, irreproducible research. As an example, using global elevation data in the order of a few terabytes as covariate information in modeling the spatial variation of precipitation requires fast methods to inferential statistics and extensive effort in data management. In this project, we aim at developing efficient methods for geostatistical inference on global environmental phenomena that \n\n\n\n\ncomputationally scale well on shared nothing architectures, \n\n\nconsider non-stationary, non-separable, and anisotropic spatiotemporal dependencies, and \n\n\nare capable of integrating multiple data sources including remote sensing imagery and in-situ observations.\n\n\n\n\nTherefore, we will build geostatistical models that combine spatial Markov random fields with temporal advection-diffusion processes and adapt novel algorithms to the highly scalable data management and analytics system SciDB. Developed methods will be demonstrated in two use cases including the creation of a global high resolution precipitation dataset and global modeling of land use change with external independent variables. \nExpected key contributions include algorithms for efficient geostatistical inference in distributed computing environments, approaches for modeling non-stationarity and anisotropy on global scale, and open source software tools for reproducible large-scale environmental data management and analyses.\n\n\nIntroduction\n\n\nObjectives\n\n\nMethods\n\n\nUse cases",
+            "title": "Home"
+        },
+        {
+            "location": "/index.html#s3-gep-scalable-spatiotemporal-statistics-for-global-environmental-phenomena",
+            "text": "This website presents the  S3-GEP  research project funded by the German Research Foundation (DFG) under project number 396611854.",
+            "title": "S3-GEP - Scalable Spatiotemporal Statistics for Global Environmental Phenomena"
+        },
+        {
+            "location": "/index.html#project-summary",
+            "text": "With today's amount of open Earth observation data, comprehensive geostatistical analyses of environmental phenomena can be brought to global scale. However, computational complexity of random field operations, globally unrealistic model assumptions like stationarity, separability, and isotropy, and data management issues when data size exceeds local storage capacity currently limit the practical use of the data in statistical applications and result in unshareable, irreproducible research. As an example, using global elevation data in the order of a few terabytes as covariate information in modeling the spatial variation of precipitation requires fast methods to inferential statistics and extensive effort in data management. In this project, we aim at developing efficient methods for geostatistical inference on global environmental phenomena that    computationally scale well on shared nothing architectures,   consider non-stationary, non-separable, and anisotropic spatiotemporal dependencies, and   are capable of integrating multiple data sources including remote sensing imagery and in-situ observations.   Therefore, we will build geostatistical models that combine spatial Markov random fields with temporal advection-diffusion processes and adapt novel algorithms to the highly scalable data management and analytics system SciDB. Developed methods will be demonstrated in two use cases including the creation of a global high resolution precipitation dataset and global modeling of land use change with external independent variables. \nExpected key contributions include algorithms for efficient geostatistical inference in distributed computing environments, approaches for modeling non-stationarity and anisotropy on global scale, and open source software tools for reproducible large-scale environmental data management and analyses.",
+            "title": "Project summary"
+        },
+        {
+            "location": "/index.html#introduction",
+            "text": "",
+            "title": "Introduction"
+        },
+        {
+            "location": "/index.html#objectives",
+            "text": "",
+            "title": "Objectives"
+        },
+        {
+            "location": "/index.html#methods",
+            "text": "",
+            "title": "Methods"
+        },
+        {
+            "location": "/index.html#use-cases",
+            "text": "",
+            "title": "Use cases"
+        }
+    ]
+}
